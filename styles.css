@@ -197,4 +197,5 @@ span {
 .form-section-3 > .text > a {
     color: #596D48;
     font-size: 18px;
+    text-decoration: none;
 }
