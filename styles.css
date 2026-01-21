@@ -10,7 +10,7 @@
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -128,7 +128,7 @@ body {
 #confirmed-password {
     width: 300px;
     height: 30px;
-    border: 1px solid black;
+    border: 1px solid #E5E7EB;
     border-radius: 6px;
 
     padding: 10px;
@@ -139,7 +139,7 @@ body {
 .text-part-2 > .text {
     line-height: 1.5;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 span {
@@ -153,5 +153,33 @@ span {
     gap: 24px;
 
     padding: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+
+.form-section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    margin-top: 30px;
+    margin: 50px;
+}
+
+.form-section-3 > button {
+    width: fit-content;
+    padding: 12px 60px;
+    border-radius: 8px;
+    border: none;
+
+    font-size: 18px;
+    background-color: #596D48;
+    color: white;
+
+    box-shadow: 0px 6px 3px grey;
+}
+
+.form-section-3 > .text > a {
+    color: #596D48;
+    font-size: 18px;
 }
