@@ -116,7 +116,7 @@ body {
     gap: 6px;
 
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -133,6 +133,21 @@ body {
 
     padding: 10px;
     font: 24px;
+}
+
+#password:invalid,
+#confirmed-password:invalid {
+    border: 1px solid red;
+}
+
+#first-name:focus,
+#email:focus,
+#password:focus,
+#last-name:focus,
+#phone-number:focus,
+#confirmed-password:focus {
+    box-shadow: 0px 4px 2px grey;
+    border: none;
 }
 
 .text-part-1 > .text,
