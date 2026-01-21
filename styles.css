@@ -1,0 +1,70 @@
+@import url(https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold);
+@font-face {
+    font-family: "Norse Bold";
+    src: url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot");
+    src: url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.svg#Norse Bold")format("svg");
+}
+
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.whole-page {
+    display: flex;
+}
+
+.img-section {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.odin-logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20vh;
+
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.odin-logo-section > img {
+    width: 100px;
+    height: auto;
+}
+
+.odin-logo-section > .logo-text {
+    font-size: 100px;
+    font-family: "Norse Bold";
+    color: white;
+}
+
+.picture-credit {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.credit-text, 
+.credit-text > a {
+    color: white;
+    font-size: 14px;
+    opacity: 0.8;
+}
